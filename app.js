@@ -35,6 +35,8 @@ app.listen(PORT, function() {
 // In app.js, replace the block starting with "app.route('/')" with:
 app.route('/').get(function(req, res) {
   api(req, res).then(function(api) {
+    // return api.getByUID('post', 'get-started');
+    // return api.getByUID('posts', 'get-started');
     return api.getByUID('page', 'get-started');
   }).then(function(prismicdoc) {
     res.render('index', {
