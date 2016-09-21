@@ -1,6 +1,6 @@
 module.exports = {
 
-  apiEndpoint: 'https://your-repo-name.prismic.io/api',
+  apiEndpoint: 'https://ivsite-jekyll.prismic.io/api',
 
   // -- Access token if the Master is not open
   // accessToken: 'xxxxxx',
